@@ -31,7 +31,7 @@
         </p>
         <p>
             <asp:Label ID="Label4" runat="server" Text="Product:"></asp:Label>
-            <asp:TextBox ID="txtProduct" runat="server"></asp:TextBox>
+            <asp:Label ID="lblProduct" runat="server" Text="Label"></asp:Label>
         </p>
         <p>
             <asp:Label ID="Label5" runat="server" Text="Description"></asp:Label>
@@ -39,21 +39,26 @@
         </p>
         <p>
             <asp:Label ID="Label6" runat="server" Text="Image"></asp:Label>
-            <asp:TextBox ID="txtImage" runat="server"></asp:TextBox>
+            <asp:Label ID="lblImage" runat="server" Text="Label"></asp:Label>
         </p>
         <asp:Label ID="Label7" runat="server" Text="Price"></asp:Label>
-        <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
+        <asp:Label ID="lblPrice" runat="server" Text="Label"></asp:Label>
         <p>
             <asp:Label ID="Label8" runat="server" Text="Number in stock"></asp:Label>
-            <asp:TextBox ID="txtNumberInStock" runat="server" style="margin-bottom: 1px"></asp:TextBox>
+            <asp:Label ID="lblNumberInStock" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="lblValueInStock" runat="server" Text="Label"></asp:Label>
         </p>
         <asp:Label ID="Label9" runat="server" Text="Number in order"></asp:Label>
-        <asp:TextBox ID="txtNumberOnOrder" runat="server"></asp:TextBox>
+        <asp:Label ID="lblNumberOnOrder" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="lblValueOnOrder" runat="server" Text="Label"></asp:Label>
         <p>
             <asp:Label ID="Label10" runat="server" Text="Reorder level"></asp:Label>
-            <asp:TextBox ID="txtReorderLevel" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            <asp:Label ID="lblReorderLevel" runat="server" Text="Label"></asp:Label>
         </p>
-        <asp:Button ID="Button1" runat="server" Text="Confirm" OnClick="Button1_Click" />
+        <p>
+            <asp:Button ID="Button1" runat="server" Text="Save" />
+            <asp:Button ID="Button2" runat="server" Text="Back" />
+        </p>
     </form>
 </body>
 </html>
