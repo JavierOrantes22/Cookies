@@ -17,16 +17,16 @@
         <p>
             <asp:Label ID="Label2" runat="server" Text="Category:"></asp:Label>
             <asp:DropDownList ID="ddlCategory" runat="server">
-            <asp:ListItem>Postres</asp:ListItem>
-                  <asp:ListItem>Frutas</asp:ListItem>
+            <asp:ListItem>Zapatos</asp:ListItem>
+                  <asp:ListItem>Ropa</asp:ListItem>
             </asp:DropDownList>
         </p>
         <p>
             <asp:Label ID="Label3" runat="server" Text="Supplier:"></asp:Label>
             <asp:DropDownList ID="ddlSupplier" runat="server">
-                  <asp:ListItem>Lido</asp:ListItem>
-                  <asp:ListItem>Sinai</asp:ListItem>
-                  <asp:ListItem>GreatValueFruits</asp:ListItem>
+                  <asp:ListItem>Nike</asp:ListItem>
+                  <asp:ListItem>Adidas</asp:ListItem>
+                  <asp:ListItem>Puma</asp:ListItem>
             </asp:DropDownList>
         </p>
         <p>
